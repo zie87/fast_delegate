@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <time.h>
 
-#include "Receivers.hpp"
-#include "Invoker.hpp"
+#include "receivers.hpp"
+#include "invoker.hpp"
 #include "FastDelegate.h"
 #include <srutil/delegate/delegate.hpp>
 

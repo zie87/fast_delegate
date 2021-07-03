@@ -1,8 +1,8 @@
-BOOST_NO_EXCEPTIONS
-namespace boost
-{
-	void throw_exception(std::exception const &) {}
-}
+//BOOST_NO_EXCEPTIONS
+//namespace boost
+//{
+//	void throw_exception(std::exception const &) {}
+//}
 
 #include <stdio.h>
 #include <boost/bind.hpp>
