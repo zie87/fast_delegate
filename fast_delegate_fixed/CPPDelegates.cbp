@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CPPDelegates" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug.x86">
+				<Option output="bin.GCC.Debug.x86/CPPDelegates" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/GCC.Debug.x86/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-std=c++14" />
+					<Add option="-m32" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-m32" />
+				</Linker>
+			</Target>
+			<Target title="Release.x86">
+				<Option output="bin.GCC.Release.x86/CPPDelegates" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/GCC.Release.x86/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-std=c++14" />
+					<Add option="-m32" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m32" />
+				</Linker>
+			</Target>
+			<Target title="Debug.x86-64">
+				<Option output="bin.GCC.x86-64/CPPDelegates" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/GCC.Debug.x86-64/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-std=c++14" />
+					<Add option="-m64" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+				</Linker>
+			</Target>
+			<Target title="Release.x86-64">
+				<Option output="bin.GCC.Release.x86-64/CPPDelegates" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/GCC.Release.x86-64/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add option="-std=c++14" />
+					<Add option="-m64" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CppDelegates/ArticleSamples.h" />
+		<Unit filename="CppDelegates/Benchmark.h" />
+		<Unit filename="CppDelegates/Delegate.h" />
+		<Unit filename="CppDelegates/DelegateBase.h" />
+		<Unit filename="CppDelegates/DelegateDemo.h" />
+		<Unit filename="CppDelegates/DemoEntryPoint.cpp" />
+		<Unit filename="CppDelegates/MultiCastDelegate.h" />
+		<Unit filename="CppDelegates/stdafx.cpp" />
+		<Unit filename="CppDelegates/stdafx.h" />
+		<Unit filename="CppDelegates/targetver.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
