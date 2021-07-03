@@ -6,3 +6,4 @@ project(fast_delegates LANGUAGES C CXX)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(fast_delegate)
+add_subdirectory(fast_delegate_fixed)
