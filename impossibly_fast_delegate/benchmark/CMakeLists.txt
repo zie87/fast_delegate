@@ -5,4 +5,4 @@ add_executable(benchmark_orig
     )
 
 target_include_directories(benchmark_orig PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/)
-target_link_libraries(benchmark_orig PUBLIC FD::original Boost::headers)
+target_link_libraries(benchmark_orig PUBLIC FD::impossibly Boost::headers)
